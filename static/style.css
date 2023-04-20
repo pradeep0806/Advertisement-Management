@@ -1,0 +1,95 @@
+/* Set default font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Style the header */
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+/* Style the form */
+form {
+  margin-bottom: 30px;
+}
+
+form input[type="text"], form input[type="number"] {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the edit and delete buttons */
+td form {
+  display: inline-block;
+}
+
+td form button[type="submit"] {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+td form button[type="submit"]:hover {
+  background-color: #da190b;
+}
+
+td form input[type="hidden"] {
+  display: none;
+}
+
+/* Style the image */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
